@@ -49,5 +49,15 @@ while p == 1:
     elif x == 3 and b == 2:
         print("scissors and paper: player wins")
 
-    p = int(input("keep playing? 1.Yes, 2.No "))
+    g = str(input("keep playing? Yes/No "))
+
+    if g == ("Yes"):
+        p = 1
+    elif g == ("yes"):
+        p = 1
+    elif g == ("No"):
+        p = 0
+    elif g == ("no"):
+        p = 0
+    
     
