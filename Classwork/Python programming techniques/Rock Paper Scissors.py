@@ -1,11 +1,11 @@
 from random import randint
-p = 1
+p = 1  ### SRC - Meaningful variable names please!!!
 
 while p == 1:
 
     c = str(input("Rock, Paper, Scissors "))
 
-    if c == ("Rock"):
+    if c == ("Rock"): ### SRC - No need for parentheses around strings...
         x = 1
     elif c == ("Scissors"):
         x = 3
