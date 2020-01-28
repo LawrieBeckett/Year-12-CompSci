@@ -1,5 +1,7 @@
 import pygame
 
+### SRC - Great effort. Try and make the "repeat" a bit smoother
+
 # -- Global Constants
 
  
@@ -88,7 +90,7 @@ while not game_over:
 
         circle_y_pos = 100
 
-   
+    ### SRC - END IF   
 
     # -- Screen background is BLACK
 
