@@ -78,6 +78,8 @@ while not done:
     elif ball_x == 640:
         player_score = player_score + 1
 
+    ### SRC - The scoring doesn't seem to be working...
+
     if player_score == 5:
         done = True
         fo.open(Leaderboard [a][1])
@@ -93,7 +95,7 @@ while not done:
     
    
 
-          
+     ### SRC - Why so much space?     
 
             
     
